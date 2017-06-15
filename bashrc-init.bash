@@ -14,6 +14,7 @@ echo 'export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64\' >> /home/users/$user/.b
 echo '                    ${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}' >> /home/users/$user/.bashrc
 echo "Add CUDA 8.0 Lib64 Done!"
 echo "===="
+source /home/users/$user/.bashrc
 echo "All Done!"
 echo "===="
 exit
