@@ -35,3 +35,4 @@ jupyter notebook --no-browser
 # Copy only token code
 # ex: http://localhost:8888/?token=c8de56fa
 # copy only c8de56fa
+# open http://osaka.siitai.xyz. You will see Jupyter Notebook and enter your token.
