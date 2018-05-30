@@ -19,6 +19,9 @@ conda create --name envname python=3.5
 ### Activate Env ###
 source activate envname
 
+### Deactivate ###
+source deactivate envname
+
 ### For install package ###
 conda install numpy scipy matplotlib jupyter ipython
 
