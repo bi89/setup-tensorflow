@@ -23,7 +23,7 @@ source activate envname
 source deactivate envname
 
 ### For install package ###
-conda install numpy scipy matplotlib jupyter ipython
+conda install numpy scipy matplotlib ipython
 
 ### For install Tensorflow GPU ###
 pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.1.0-cp35-cp35m-linux_x86_64.whl
@@ -32,10 +32,3 @@ pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorfl
 conda install tensorflow
 ### --OR-- ###
 pip3 install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.1.0-cp35-cp35m-linux_x86_64.whl
-
-### To start Jupyter Notebook ###
-jupyter notebook --no-browser
-# Copy only token code
-# ex: http://localhost:8888/?token=c8de56fa
-# copy only c8de56fa
-# open http://osaka.siitai.xyz. You will see Jupyter Notebook and enter your token.
